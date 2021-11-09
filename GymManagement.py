@@ -246,7 +246,7 @@ class Member:
     def __init__(self):
         self.num = input("Please enter contact number.")
         if self.num in member_details_dict:
-            print("Welcome, {} to Manish's gym!".format(member_details_dict[self.num]['Full Name']))
+            print("Welcome, {} to talib's gym!".format(member_details_dict[self.num]['Full Name']))
             self.member_menu()
         else:
             print("Sorry it seems, you are not a member!\n Please ask the super user to add your details!")
